@@ -4,6 +4,7 @@
 Esta API foi desenvolvida para fins de web scraping, sendo seu alvo um site de livros.
 
 As seguintes funcionalidades são oferecidas:
+
 -Retornar as informações de N livros de uma categoria
 
 -Fazer o crawleamento de uma categoria desejada e salvar as informações no banco de dados
