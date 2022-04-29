@@ -18,10 +18,13 @@ ________________________________________________________________________________
 Para utilizar a aplicação na forma dockerizada:
 Utilize o terminal para ir até o diretório onde o dockerfile se encontra.
 Crie a imagem da seguinte forma: docker build -t <nome_para_a_imagem> .
+
 Ex: docker build -t imagem_api_crawler_livro .
+
 
 Em seguida, crie o container, lembrando de especificar as portas para conexão.
 Utilize o seguinte formato: docker run --rm --name <nome_para_o_container> -p <porta>:<porta> <nome_ou_id_da_imagem>
+  
 Ex: docker run --rm --name container_api_crawler_livro -p 80:80 imagem_api_crawler_livro
 
 Então, copie a url retornada pelo terminal e adicione "/docs" a ela para utilizar a aplicação no navegador.
